@@ -12,9 +12,86 @@
 
 /* share CSS */
 
-
-
-
+    .video-button{
+            width:70px;
+            height: 70px;
+            background: linear-gradient(270deg, #F7E93F, #FB09B4, #9100F8);
+            border-radius: 50%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            position:absolute;
+            top:17%;
+            left:41%;
+        }
+    .bg-border{
+        width:40px;
+        height:40px;
+        border:1px solid rgb(57, 40, 165);
+        border-radius:50%;
+        display:flex;
+        justify-content: center;
+         align-items: center;
+         position:absolute; 
+             top:80%;
+            left:-11px;
+      }
+      .bg-border1{
+        width:40px;
+        height:40px;
+        border:1px solid rgb(57, 40, 165);
+        border-radius:50%;
+        display:flex;
+        justify-content: center;
+         align-items: center;
+         position:absolute; 
+             top:79.5%;
+            left:4.7%;
+      }
+       .bg-border2{
+        width:40px;
+        height:40px;
+        border:1px solid rgb(57, 40, 165);
+        border-radius:50%;
+        display:flex;
+        justify-content: center;
+         align-items: center;
+         position:absolute; 
+             top:79%;
+            left:10.6%;
+      }
+       .bg-border3{
+        width:40px;
+        height:40px;
+        border:1px solid rgb(57, 40, 165);
+        border-radius:50%;
+        display:flex;
+        justify-content: center;
+         align-items: center;
+         position:absolute; 
+             top:79%;
+            left:16.8%;
+      }
+   /* .img1{
+     position:absolute;
+            top:84%;
+            left:0%;
+   }
+   .img2{
+     position:absolute;
+            top:40%;
+            left:10%;
+   }
+   .img3{
+      position:absolute;
+            top:84%;
+            left:10%;
+   }
+   .img4{
+      position:absolute;
+            top:84%;
+            left:10%;
+   } */
 /* main css  */
 
 /* nav ber design  */
@@ -321,6 +398,7 @@ margin-bottom:16px;
    max-width:380px;
    background-color: #301751;  
    border-radius: 20px;
+   position:relative;
 }
 .f-card iframe{
     border-top-left-radius: 20px 20px;
@@ -373,6 +451,9 @@ margin-left:24px;
     padding:40px;
     border-radius: 20px;
 }
+.img-info{
+    position:relative;
+}
 .img-info h2{
     color:#FFFFFF;
     font-size:2rem;
@@ -386,9 +467,11 @@ margin-left:24px;
     margin-bottom:16px;
 }
 .img-info img{
-   margin-right:10px;
+   margin-right:25px;
    width:20px;
    height:20;
+   /* position:relative; */
+   
 }
 .border-circle{
     /* background-color: #F7E93F; */
