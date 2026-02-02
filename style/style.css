@@ -32,46 +32,9 @@
         display:flex;
         justify-content: center;
          align-items: center;
-         position:absolute; 
-             top:80%;
-            left:-11px;
+        flex-direction: column;
       }
-      .bg-border1{
-        width:40px;
-        height:40px;
-        border:1px solid rgb(57, 40, 165);
-        border-radius:50%;
-        display:flex;
-        justify-content: center;
-         align-items: center;
-         position:absolute; 
-             top:79.5%;
-            left:4.7%;
-      }
-       .bg-border2{
-        width:40px;
-        height:40px;
-        border:1px solid rgb(57, 40, 165);
-        border-radius:50%;
-        display:flex;
-        justify-content: center;
-         align-items: center;
-         position:absolute; 
-             top:79%;
-            left:10.6%;
-      }
-       .bg-border3{
-        width:40px;
-        height:40px;
-        border:1px solid rgb(57, 40, 165);
-        border-radius:50%;
-        display:flex;
-        justify-content: center;
-         align-items: center;
-         position:absolute; 
-             top:79%;
-            left:16.8%;
-      }
+      
    /* .img1{
      position:absolute;
             top:84%;
@@ -132,7 +95,9 @@ nav>div{
     border-radius: 20px ;
     background: linear-gradient(270deg, #F7E93F, #FB09B4, #9100F8);
 }
-
+.nav-container .ham-menu{
+    display:none;
+}
 /* banner section design */
 .banner-container{
 background-image: url(../assets/hero-bg.png);
@@ -466,12 +431,9 @@ margin-left:24px;
     font-size:1rem;
     margin-bottom:16px;
 }
-.img-info img{
-   margin-right:25px;
-   width:20px;
-   height:20;
-   /* position:relative; */
-   
+.bg-border-p{
+    display:flex;
+    gap:6px;
 }
 .border-circle{
     /* background-color: #F7E93F; */
